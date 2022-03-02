@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ambroise-std;
+    color: #602f32;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+section{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#page1{
+    background-image: url(./Pictures/background\ KI.png);
+    background-size: cover;
+}
+
+#page3{
+    display: flex;
+    flex-direction: column;
+}
+
+.profil{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-top: -10%;
+    margin-left: 35%;
+}
+
+.fa {
+    padding: 6px;
+    font-size: 35px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: solid 1.5px #602f32;
+    color: #602f32;
+  }
+
+.fa:hover{
+    background-color: #602f32;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact{
+    margin-left: 75%;
+}
+
+.split{
+    height: 100%;
+    position: absolute;
+}
+
+.left{
+    width: 50%;
+    left: 0;
+}
+
+.right{
+    width: 50%;
+    right: 0;
+}
+
+.column1{
+    height: 30%;
+    margin-top: 5%;
+}
+.column2{
+    height: 70%;
+}
+
+h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+.title{
+    color: #cfc0c1;
+    font-size: xx-large;
+}
+
+.t1{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.t2{
+    margin-left: 20%;
+}
+
+button{
+    cursor: pointer;
+    font-family: Oswald;
+    border: none;
+}
+.button {
+    background-color: #602f32; 
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin: 8px 0.5px;
+    
+}
+
+.button:hover{
+    opacity: 90%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c2{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c3{
+    height:10%;
+    text-align: center;
+    border-bottom: solid 2px #602f32;
+    margin-top: 30px;
+
+}
+
+.c4{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 2px #602f32;
+}
+
+.c5{
+    height: 20% ;
+    text-align: center;
+    margin-top: 20px;
+}
+.s1{
+    width: 100%;
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+
+.s3{
+    width: 18%;
+    background-color: white;
+}
+
+.s4{
+    width: 25% ;
+}
+
+.s5{
+    width: 7%;
+    text-align: center;
+}
+
+.s6{
+    width: 100%;
+    text-align: center;
+    padding-right: 150px;
+    background-image: url(abstract.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.s7{
+    display: flex;
+    flex-direction: row;
+    margin-left: 47%;
+    
+}
+
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.i1{
+    margin-top: -40px;
+}
+
+.i2{
+    margin-top: 20px;
+}
+
+.i3{
+    margin-top: 100px;
+}
+
+.click{
+    padding: 15px 5px 12px 5px;
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: #602f32;
+    color: white;
+
+}
+
+.text{
+    font-family: Oswald;
+    color: #602f32;
+}
+
+.part{
+    width: 50%;
+    background-color: #602f32;
+    display: flex;
+    flex-direction: row;
+}
+
+.s1 p{
+    color: #602f32;
+    line-height: 1.5;
+}
+
+.t3{
+    color: #602f32;
+    margin-left: -80px;
+}
+
+.s6 p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.s6 ul{
+    margin-top: 30px;
+    margin-left: 150px;
+    line-height: 3;
+    font-family: Oswald;
+}
+
+.s6 li{
+    font-family: Oswald;
+    opacity: 98%;
+}
+
